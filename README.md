@@ -3,5 +3,11 @@
 ## Syntax highlighting test
 
 ```javascript
-console.log('Hello');
+var something = 'Hello'
+console.log(something);
+
+var data = [ 'foo', 'bar' ];
+data.forEach(function (item) {
+	console.log(item);
+});
 ```
